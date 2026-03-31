@@ -83,9 +83,6 @@ void menuBerat() {
 
 // Anggota 4: Konversi Waktu (Jam ke Menit/Detik)
 void menuWaktu() {
-<<<<<<< HEAD
-  
-=======
     float jam, menit;
     char ulang;
 
@@ -107,5 +104,4 @@ void menuWaktu() {
     printf("Program selesai.\n");
 
     return 0;
->>>>>>> origin/menuwaktu
 }
