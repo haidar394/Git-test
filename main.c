@@ -74,6 +74,8 @@ void menuJarak() {
 
     // Proses konversi
     meter = kilometer * 1000;
+
+    printf("Hasil: %.2f km = %.2f meter\n", kilometer, meter);
 }
 
 // Anggota 3: Konversi Berat (Kilogram ke Gram/Pons)
@@ -89,6 +91,8 @@ void menuBerat() {
 
     // Proses konversi
     gram = kilogram * 1000;
+
+    printf("Hasil: %.2f kg = %.2f gram\n", kilogram, gram);
 }
 
 // Anggota 4: Konversi Waktu (Jam ke Menit/Detik)
@@ -111,7 +115,6 @@ void menuWaktu() {
 
     } while (ulang == 'y' || ulang == 'Y');
 
-    printf("Program selesai.\n");
+    printf("Kembali ke menu utama...\n");
 
-    return 0;
 }
