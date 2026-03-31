@@ -65,7 +65,7 @@ void menuBerat() {
 
 // Anggota 4: Konversi Waktu (Jam ke Menit/Detik)
 void menuWaktu() {
-  float jam, menit;
+    float jam, menit;
     char ulang;
 
     do {
