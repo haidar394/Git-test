@@ -50,7 +50,15 @@ int main() {
 
 // Anggota 1: Konversi Suhu (Celcius ke Fahrenheit/Kelvin)
 void menuSuhu() {
+    float celcius, kelvin;
 
+    printf("\n--- KONVERSI SUHU (Celcius ke Kelvin) ---\n");
+    printf("Masukkan suhu dalam Celcius: ");
+    scanf("%f", &celcius);
+
+    kelvin = celcius + 273.15;
+
+    printf("Hasil: %.2f Kelvin\n", kelvin);
 }
 
 // Anggota 2: Konversi Jarak (Kilometer ke Meter/Centimeter)
